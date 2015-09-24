@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="900dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/dialog_header"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_head"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="@string/incoming"
+                android:textColor="#689F38"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="@null"
+                android:src="@mipmap/close" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/incoming_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+</ScrollView>

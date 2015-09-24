@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Theme.Main" parent="Base.AppTheme"/>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:listDivider">@color/whiteDivider</item>
+        <item name="android:windowBackground">@color/DrawerColor</item>
+
+
+
+    </style>
+
+
+</resources>

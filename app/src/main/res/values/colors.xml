@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FFF</color>
+
+    <color name="primaryColor">#82b847</color>
+    <color name="primaryDarkColor">#82b849</color>
+    <color name="accentColor">#82b847</color>
+    <color name="DrawerColor">#212121</color>
+    <color name="whiteDivider">#757575</color>
+    <color name="gray">#FAFAFA</color>
+    <color name="separator">#CCCCCC</color>
+    <color name="press_overlay">#15000000</color>
+</resources>

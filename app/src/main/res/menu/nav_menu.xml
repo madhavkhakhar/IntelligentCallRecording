@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ndroid="http://schemas.android.com/tools" android:divider="#FFF">
+
+    <group android:id="@+id/grp1"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@mipmap/profile"
+            android:title="@string/profile"
+            />
+</group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@mipmap/incoming_call"
+            android:title="@string/incoming_call" />
+</group>
+    <group android:id="@+id/grp3">
+
+    <item
+            android:id="@+id/nav_carrito"
+            android:icon="@mipmap/call_record"
+            android:title="@string/record_call" />
+
+</group>
+    <group android:id="@+id/grp4">
+    <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@mipmap/online_link"
+            android:title="@string/online_link" />
+</group>
+    <group android:id="@+id/grp5">
+
+    <item
+            android:id="@+id/nav_facturas"
+            android:icon="@mipmap/call_auto"
+            android:title="@string/auto_record" />
+</group>
+    <group android:id="@+id/grp6">
+
+    <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/help"
+            android:title="@string/help" />
+
+</group>
+    <group android:id="@+id/grp7">
+    <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/about"
+            android:title="@string/about" />
+</group>
+
+
+    </menu>
