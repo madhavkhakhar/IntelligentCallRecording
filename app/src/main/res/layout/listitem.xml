@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white"
-        android:orientation="vertical">
-
-
-        <LinearLayout
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -19,7 +8,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="0.9"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -32,7 +21,7 @@
                     android:layout_height="wrap_content"
                     android:text="Name"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/HistoryDuration"
@@ -41,13 +30,13 @@
                     android:layout_marginTop="5dp"
                     android:text="22:30"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -63,13 +52,13 @@
                     android:paddingTop="20dp"
                     android:text="1"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1.3"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -82,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:text="Wed. 01/08/2015"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/HistoryTime"
@@ -91,13 +80,13 @@
                     android:layout_marginTop="5dp"
                     android:text="4:50 PM"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -110,7 +99,7 @@
                     android:layout_height="wrap_content"
                     android:text="+91 1234567890"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -138,7 +127,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -151,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:text="00:22:12 pm"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:id="@+id/DurationEnd"
@@ -160,14 +149,14 @@
                     android:layout_marginTop="5dp"
                     android:text="00:23:12 pm"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="0.9"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -183,13 +172,13 @@
                     android:paddingTop="20dp"
                     android:text="Jane"
                     android:textColor="#9CCC65"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -201,13 +190,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:src="@mipmap/important" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="110dp"
+                android:layout_height="130dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittextborder"
                 android:gravity="center"
@@ -220,6 +211,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
                     android:layout_marginTop="15dp"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:background="@android:color/white"
                     android:src="@mipmap/chat"
 
@@ -227,95 +220,6 @@
             </LinearLayout>
 
         </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/expandable"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <ImageButton
-                android:id="@+id/pause"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/white"
-                android:src="@mipmap/pause"
-
-                />
-
-            <ImageButton
-                android:id="@+id/play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/white"
-                android:src="@mipmap/play"
-
-                />
-
-            <ImageButton
-                android:id="@+id/stop"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/white"
-                android:src="@mipmap/stop"
-
-                />
-
-
-            <SeekBar
-                android:id="@+id/seekBar1"
-                android:layout_width="450dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="10dp"
-                android:indeterminate="false"
-                android:progressDrawable="@drawable/progressbar"
-                android:thumb="@mipmap/thumb" />
-
-            <ImageButton
-                android:id="@+id/btn_View1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:background="@null"
-                android:src="@mipmap/btn_imp" />
-
-            <ImageButton
-                android:id="@+id/btn_View2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@null"
-                android:src="@mipmap/ic"
-
-
-                />
-        </LinearLayout>
-    </LinearLayout>
-</ScrollView>
 
 
     <!--

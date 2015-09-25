@@ -4,15 +4,15 @@ package com.nolostcalls.intelligentcallrecording;
  * Created by madhav on 13/2/15.
  */
 public class ListItem {
-    String name;
-    String duration;
-    int lineNumber;
-    String date;
-    String time;
-    String phoneNumber;
-    int callMissed;
-    String phoneDuration;
-    String employeeName;
+    public String name;
+    public String duration;
+    public int lineNumber;
+    public String date;
+    public String time;
+    public String phoneNumber;
+    public int callMissed;
+    public String phoneDuration;
+    public String employeeName;
 
     public ListItem() {
     }
